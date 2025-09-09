@@ -1,0 +1,259 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - heading "Wikipedia The Free Encyclopedia" [level=1] [ref=e4]:
+      - generic [ref=e5]: Wikipedia
+      - strong [ref=e6]: The Free Encyclopedia
+    - navigation "Top languages" [ref=e7]:
+      - link "English 7,052,000+ articles" [ref=e9] [cursor=pointer]:
+        - /url: //en.wikipedia.org/
+        - strong [ref=e10] [cursor=pointer]: English
+        - generic [ref=e11] [cursor=pointer]:
+          - text: 7,052,000+
+          - generic [ref=e12] [cursor=pointer]: articles
+      - link "日本語 1,472,000+ 記事" [ref=e14] [cursor=pointer]:
+        - /url: //ja.wikipedia.org/
+        - strong [ref=e15] [cursor=pointer]: 日本語
+        - generic [ref=e16] [cursor=pointer]:
+          - text: 1,472,000+
+          - generic [ref=e17] [cursor=pointer]: 記事
+      - link "Русский 2 062 000+ статей" [ref=e19] [cursor=pointer]:
+        - /url: //ru.wikipedia.org/
+        - strong [ref=e20] [cursor=pointer]: Русский
+        - generic [ref=e21] [cursor=pointer]:
+          - text: 2 062 000+
+          - generic [ref=e22] [cursor=pointer]: статей
+      - link "Deutsch 3.048.000+ Artikel" [ref=e24] [cursor=pointer]:
+        - /url: //de.wikipedia.org/
+        - strong [ref=e25] [cursor=pointer]: Deutsch
+        - generic [ref=e26] [cursor=pointer]:
+          - text: 3.048.000+
+          - generic [ref=e27] [cursor=pointer]: Artikel
+      - link "Français 2 707 000+ articles" [ref=e29] [cursor=pointer]:
+        - /url: //fr.wikipedia.org/
+        - strong [ref=e30] [cursor=pointer]: Français
+        - generic [ref=e31] [cursor=pointer]:
+          - text: 2 707 000+
+          - generic [ref=e32] [cursor=pointer]: articles
+      - link "Español 2.059.000+ artículos" [ref=e34] [cursor=pointer]:
+        - /url: //es.wikipedia.org/
+        - strong [ref=e35] [cursor=pointer]: Español
+        - generic [ref=e36] [cursor=pointer]:
+          - text: 2.059.000+
+          - generic [ref=e37] [cursor=pointer]: artículos
+      - link "Italiano 1.934.000+ voci" [ref=e39] [cursor=pointer]:
+        - /url: //it.wikipedia.org/
+        - strong [ref=e40] [cursor=pointer]: Italiano
+        - generic [ref=e41] [cursor=pointer]:
+          - text: 1.934.000+
+          - generic [ref=e42] [cursor=pointer]: voci
+      - link "中文 1,498,000+ 条目 / 條目" [ref=e44] [cursor=pointer]:
+        - /url: //zh.wikipedia.org/
+        - strong [ref=e45] [cursor=pointer]: 中文
+        - generic [ref=e46] [cursor=pointer]:
+          - text: 1,498,000+
+          - generic [ref=e47] [cursor=pointer]: 条目 / 條目
+      - link "Polski 1 667 000+ haseł" [ref=e49] [cursor=pointer]:
+        - /url: //pl.wikipedia.org/
+        - strong [ref=e50] [cursor=pointer]: Polski
+        - generic [ref=e51] [cursor=pointer]:
+          - text: 1 667 000+
+          - generic [ref=e52] [cursor=pointer]: haseł
+      - link "Português 1.154.000+ artigos" [ref=e54] [cursor=pointer]:
+        - /url: //pt.wikipedia.org/
+        - strong [ref=e55] [cursor=pointer]: Português
+        - generic [ref=e56] [cursor=pointer]:
+          - text: 1.154.000+
+          - generic [ref=e57] [cursor=pointer]: artigos
+    - search [ref=e58]:
+      - group [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: Search Wikipedia
+          - searchbox "Search Wikipedia" [active] [ref=e63]
+          - generic [ref=e65]:
+            - generic [ref=e66]: en
+            - combobox "en" [ref=e67] [cursor=pointer]:
+              - option "Afrikaans"
+              - option "Shqip"
+              - option "العربية"
+              - option "Asturianu"
+              - option "Azərbaycanca"
+              - option "Български"
+              - option "閩南語 / Bân-lâm-gú"
+              - option "বাংলা"
+              - option "Беларуская"
+              - option "Català"
+              - option "Čeština"
+              - option "Cymraeg"
+              - option "Dansk"
+              - option "Deutsch"
+              - option "Eesti"
+              - option "Ελληνικά"
+              - option "English" [selected]
+              - option "Español"
+              - option "Esperanto"
+              - option "Euskara"
+              - option "فارسی"
+              - option "Français"
+              - option "Galego"
+              - option "한국어"
+              - option "Հայերեն"
+              - option "हिन्दी"
+              - option "Hrvatski"
+              - option "Bahasa Indonesia"
+              - option "Italiano"
+              - option "עברית"
+              - option "ქართული"
+              - option "Ladin"
+              - option "Latina"
+              - option "Latviešu"
+              - option "Lietuvių"
+              - option "Magyar"
+              - option "Македонски"
+              - option "Malagasy"
+              - option "मराठी"
+              - option "مصرى"
+              - option "Bahasa Melayu"
+              - option "Bahaso Minangkabau"
+              - option "မြန်မာဘာသာ"
+              - option "Nederlands"
+              - option "日本語"
+              - option "Norsk (bokmål)"
+              - option "Norsk (nynorsk)"
+              - option "Нохчийн"
+              - option "Oʻzbekcha / Ўзбекча"
+              - option "Polski"
+              - option "Português"
+              - option "Қазақша / Qazaqşa / قازاقشا"
+              - option "Română"
+              - option "Simple English"
+              - option "Sinugboanong Binisaya"
+              - option "Slovenčina"
+              - option "Slovenščina"
+              - option "Српски / Srpski"
+              - option "Srpskohrvatski / Српскохрватски"
+              - option "Suomi"
+              - option "Svenska"
+              - option "Kiswahili"
+              - option "தமிழ்"
+              - option "Татарча / Tatarça"
+              - option "తెలుగు"
+              - option "ภาษาไทย"
+              - option "Тоҷикӣ"
+              - option "تۆرکجه"
+              - option "Türkçe"
+              - option "Українська"
+              - option "اردو"
+              - option "Tiếng Việt"
+              - option "Winaray"
+              - option "中文"
+              - option "Русский"
+              - option "粵語"
+        - button "Search" [ref=e69] [cursor=pointer]:
+          - generic [ref=e70] [cursor=pointer]: Search
+    - navigation "All languages" [ref=e71]:
+      - button "Read Wikipedia in your language" [ref=e73] [cursor=pointer]:
+        - generic [ref=e75] [cursor=pointer]: Read Wikipedia in your language
+    - separator [ref=e78]
+  - contentinfo [ref=e79]:
+    - generic [ref=e81]:
+      - generic [ref=e83]: Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.
+      - link "You can support our work with a donation." [ref=e85] [cursor=pointer]:
+        - /url: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter
+        - generic [ref=e86] [cursor=pointer]: You can support our work with a donation.
+    - generic [ref=e89]:
+      - strong [ref=e91]:
+        - link "Download Wikipedia for Android or iOS" [ref=e92] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications
+      - paragraph [ref=e93]: Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.
+      - list [ref=e94]:
+        - listitem [ref=e95]:
+          - link "Google Play Store" [ref=e96] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob
+            - generic [ref=e97] [cursor=pointer]: Google Play Store
+        - listitem [ref=e98]:
+          - link "Apple App Store" [ref=e99] [cursor=pointer]:
+            - /url: https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8
+            - generic [ref=e100] [cursor=pointer]: Apple App Store
+    - navigation "Other projects" [ref=e101]:
+      - link "Commons Free media collection" [ref=e103] [cursor=pointer]:
+        - /url: //commons.wikimedia.org/
+        - generic [ref=e106] [cursor=pointer]:
+          - generic [ref=e107] [cursor=pointer]: Commons
+          - generic [ref=e108] [cursor=pointer]: Free media collection
+      - link "Wikivoyage Free travel guide" [ref=e110] [cursor=pointer]:
+        - /url: //www.wikivoyage.org/
+        - generic [ref=e113] [cursor=pointer]:
+          - generic [ref=e114] [cursor=pointer]: Wikivoyage
+          - generic [ref=e115] [cursor=pointer]: Free travel guide
+      - link "Wiktionary Free dictionary" [ref=e117] [cursor=pointer]:
+        - /url: //www.wiktionary.org/
+        - generic [ref=e120] [cursor=pointer]:
+          - generic [ref=e121] [cursor=pointer]: Wiktionary
+          - generic [ref=e122] [cursor=pointer]: Free dictionary
+      - link "Wikibooks Free textbooks" [ref=e124] [cursor=pointer]:
+        - /url: //www.wikibooks.org/
+        - generic [ref=e127] [cursor=pointer]:
+          - generic [ref=e128] [cursor=pointer]: Wikibooks
+          - generic [ref=e129] [cursor=pointer]: Free textbooks
+      - link "Wikinews Free news source" [ref=e131] [cursor=pointer]:
+        - /url: //www.wikinews.org/
+        - generic [ref=e134] [cursor=pointer]:
+          - generic [ref=e135] [cursor=pointer]: Wikinews
+          - generic [ref=e136] [cursor=pointer]: Free news source
+      - link "Wikidata Free knowledge base" [ref=e138] [cursor=pointer]:
+        - /url: //www.wikidata.org/
+        - generic [ref=e141] [cursor=pointer]:
+          - generic [ref=e142] [cursor=pointer]: Wikidata
+          - generic [ref=e143] [cursor=pointer]: Free knowledge base
+      - link "Wikiversity Free learning resources" [ref=e145] [cursor=pointer]:
+        - /url: //www.wikiversity.org/
+        - generic [ref=e148] [cursor=pointer]:
+          - generic [ref=e149] [cursor=pointer]: Wikiversity
+          - generic [ref=e150] [cursor=pointer]: Free learning resources
+      - link "Wikiquote Free quote compendium" [ref=e152] [cursor=pointer]:
+        - /url: //www.wikiquote.org/
+        - generic [ref=e155] [cursor=pointer]:
+          - generic [ref=e156] [cursor=pointer]: Wikiquote
+          - generic [ref=e157] [cursor=pointer]: Free quote compendium
+      - link "MediaWiki Free & open wiki software" [ref=e159] [cursor=pointer]:
+        - /url: //www.mediawiki.org/
+        - generic [ref=e162] [cursor=pointer]:
+          - generic [ref=e163] [cursor=pointer]: MediaWiki
+          - generic [ref=e164] [cursor=pointer]: Free & open wiki software
+      - link "Wikisource Free content library" [ref=e166] [cursor=pointer]:
+        - /url: //www.wikisource.org/
+        - generic [ref=e169] [cursor=pointer]:
+          - generic [ref=e170] [cursor=pointer]: Wikisource
+          - generic [ref=e171] [cursor=pointer]: Free content library
+      - link "Wikispecies Free species directory" [ref=e173] [cursor=pointer]:
+        - /url: //species.wikimedia.org/
+        - generic [ref=e176] [cursor=pointer]:
+          - generic [ref=e177] [cursor=pointer]: Wikispecies
+          - generic [ref=e178] [cursor=pointer]: Free species directory
+      - link "Wikifunctions Free function library" [ref=e180] [cursor=pointer]:
+        - /url: //www.wikifunctions.org/
+        - generic [ref=e183] [cursor=pointer]:
+          - generic [ref=e184] [cursor=pointer]: Wikifunctions
+          - generic [ref=e185] [cursor=pointer]: Free function library
+      - link "Meta-Wiki Community coordination & documentation" [ref=e187] [cursor=pointer]:
+        - /url: //meta.wikimedia.org/
+        - generic [ref=e190] [cursor=pointer]:
+          - generic [ref=e191] [cursor=pointer]: Meta-Wiki
+          - generic [ref=e192] [cursor=pointer]: Community coordination & documentation
+    - separator [ref=e193]
+    - paragraph [ref=e194]:
+      - generic [ref=e195]:
+        - text: This page is available under the
+        - link "Creative Commons Attribution-ShareAlike License" [ref=e196] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by-sa/4.0/
+        - text: •
+      - generic [ref=e197]:
+        - link "Terms of Use" [ref=e198] [cursor=pointer]:
+          - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+        - text: •
+      - link "Privacy Policy" [ref=e200] [cursor=pointer]:
+        - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+```
