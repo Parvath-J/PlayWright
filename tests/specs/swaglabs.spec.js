@@ -1,8 +1,8 @@
 // tests/products.spec.js
 import { test, expect } from '@playwright/test';
-import { LoginSwag } from './pages/LoginSwag.js';
-import { Products } from './pages/Products.js';
-import { Cart } from './pages/Cart.js';
+import { LoginSwag } from '../pages/LoginSwag.js';
+import { Products } from '../pages/Products.js';
+import { Cart } from '../pages/Cart.js';
 
 test.describe('Project 2', () => {
     test('End-to-End Product Flow', async ({ page }) => {

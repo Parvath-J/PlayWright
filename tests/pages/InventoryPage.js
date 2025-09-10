@@ -1,5 +1,5 @@
 class InventoryPage {
-  constructor(page) {
+  constructor(page) { 
     this.page = page;
     this.pageTitle = page.locator('.title');
     this.inventoryItems = page.locator('.inventory_item');
