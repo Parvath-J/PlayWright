@@ -17,6 +17,7 @@ test('E2E - Login, Sort All Ways, Add to Cart, Checkout, and Verify Order', asyn
 
   // Step 1: Navigate to Login Page
   await loginPage.goto();
+  await expect(page).toHaveTitle('Swag Labs');
 
   // Step 2: Perform Login
   await loginPage.login('standard_user', 'secret_sauce');
@@ -28,6 +29,25 @@ test('E2E - Login, Sort All Ways, Add to Cart, Checkout, and Verify Order', asyn
   // Step 4: Verify Inventory Page is loaded
   await inventoryPage.verifyOnInventoryPage();
   await expect(inventoryPage.pageTitle).toHaveText('Products', { timeout: 15000 });
+
+
+  // ✅ Assert that at least one inventory item is visible
+  await expect(inventoryPage.inventoryItems.first()).toBeVisible();
+
+  // ✅ Assert that there are more than one inventory items
+  const itemCount = await inventoryPage.inventoryItems.count();
+  expect(itemCount).toBeGreaterThan(1);
+
+  // Find and assert the product "Sauce Labs Backpack" is visible
+  await expect(page.getByText('Sauce Labs Backpack')).toBeVisible();
+
+  // Find and assert the image with alt text "Sauce Labs Backpack" is visible
+  await expect(page.getByAltText('Sauce Labs Backpack')).toBeVisible();
+
+  // Find and click the "Add to cart" button for "Sauce Labs Backpack" using surrounding div
+  //const addToCartButton = page.locator('.inventory_item:has-text("Sauce Labs Backpack") button');
+  await expect(inventoryPage.addToCartButton).toBeVisible();
+  //await inventoryPage.addToCartButton.click();
 
   // Step 5: Sort by Price Low to High
   const lowToHigh = await inventoryPage.sortByPriceLowToHigh();

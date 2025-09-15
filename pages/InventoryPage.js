@@ -22,6 +22,7 @@ export class InventoryPage {
 
     // Locator using a **class selector** for item names
     this.itemNames = page.locator('.inventory_item_name');
+    this.addToCartButton = page.locator('.inventory_item:has-text("Sauce Labs Backpack") button');
   }
 
   // /**
