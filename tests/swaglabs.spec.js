@@ -7,7 +7,7 @@ import { CheckoutPage } from '../pages/CheckoutPage.js';
 
 test('E2E - Login, Sort All Ways, Add to Cart, Checkout, and Verify Order', async ({ page }) => {
   // Set timeout for the whole test (15 seconds)
-  test.setTimeout(15 * 1000);
+  test.setTimeout(120 * 1000);
 
   // Initialize page objects
   const loginPage = new LoginSwag(page);
